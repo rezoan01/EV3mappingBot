@@ -25,3 +25,6 @@ hs_err_pid*
 .idea
 *.iml
 
+.idea/
+Mapping bot EV3.iml
+src/
