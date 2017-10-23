@@ -208,10 +208,11 @@ public class Main {
         if (!points.isEmpty()){
             System.out.println(CalculateAngle(points.get(originalSize), points.get(originalSize+1)));
             ev3.rotate((int) CalculateAngle(points.get(originalSize), points.get(originalSize+1)));
+            adjustedToSurface = true;
         } else {
             System.out.println("No points have been recorded");
         }
-        adjustedToSurface = true;
+
         }
     }
 
